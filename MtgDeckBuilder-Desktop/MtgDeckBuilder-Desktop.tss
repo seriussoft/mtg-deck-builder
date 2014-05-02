@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\Card.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\CardsDB.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\MtgDbExtensions.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\ManaCostModel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\DefinitionAttribute.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

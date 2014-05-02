@@ -1,0 +1,2 @@
+S:\Programming\GitHub\mtg-deck-builder\Desktop\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe.config
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe.config
