@@ -92,7 +92,7 @@ namespace Models
       if(definition.IsColorless())
         return ManaColors.Colorless;
 
-      throw new ArgumentOutOfRangeException("The supplied definition has no matching mana color!");
+      throw new ArgumentOutOfRangeException(String.Format("The supplied definition, '{0}', has no matching mana color!", definition));
     }
 
     public static char GetDefinition(this ManaColors manaColor)
@@ -152,6 +152,7 @@ namespace Models
     public ManaCostModel(string manaCostSimple = null)
     {
       const string separator = "|";
+      this.Costs = new Dictionary<ManaColors, int>();
       var manaOperations = ParseManaOperations(manaCostSimple);
       var orderedManaOperations = manaOperations.OrderBy(mo => mo).ToList();
 
@@ -160,7 +161,7 @@ namespace Models
         if(manaOperation.Contains(separator))
         {
           var manaOperationPartLeft = manaOperation[0];
-          var manaOperationPartRight = manaOperation[1];
+          var manaOperationPartRight = manaOperation[2];
 
           HandleManaColors(manaOperationPartLeft, manaOperationPartRight);
         }

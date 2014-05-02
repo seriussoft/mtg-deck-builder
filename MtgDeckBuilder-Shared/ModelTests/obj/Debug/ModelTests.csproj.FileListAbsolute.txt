@@ -1,0 +1,12 @@
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\ModelTests.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\ModelTests.pdb
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\Models.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\MtgDb.Info.Driver.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\Newtonsoft.Json.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\Models.pdb
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\Newtonsoft.Json.xml
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\obj\Debug\ModelTests.csprojResolveAssemblyReference.cache
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\obj\Debug\ModelTests.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\obj\Debug\ModelTests.pdb
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\Utils.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\bin\Debug\Utils.pdb

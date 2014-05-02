@@ -1,0 +1,5 @@
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\TestUtils\bin\Debug\Utils.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\TestUtils\bin\Debug\Utils.pdb
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\TestUtils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\TestUtils\obj\Debug\Utils.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\TestUtils\obj\Debug\Utils.pdb

@@ -16,5 +16,8 @@
     <ArrayOfString>
       <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\DefinitionAttribute.cs</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\ManaParserTests.cs</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

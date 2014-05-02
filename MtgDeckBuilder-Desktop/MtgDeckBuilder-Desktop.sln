@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtgDeckBuilder-Desktop", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\MtgDeckBuilder-Shared\Models\Models.csproj", "{EFDA188C-7F07-4F24-A8C6-A8B896724292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTests", "..\MtgDeckBuilder-Shared\ModelTests\ModelTests.csproj", "{A50679E9-E4CD-4337-AD5F-000C9EB43DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "..\MtgDeckBuilder-Shared\TestUtils\Utils.csproj", "{269F5149-B080-4615-A2AA-CD801AA9BBAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{EFDA188C-7F07-4F24-A8C6-A8B896724292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDA188C-7F07-4F24-A8C6-A8B896724292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDA188C-7F07-4F24-A8C6-A8B896724292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50679E9-E4CD-4337-AD5F-000C9EB43DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50679E9-E4CD-4337-AD5F-000C9EB43DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50679E9-E4CD-4337-AD5F-000C9EB43DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50679E9-E4CD-4337-AD5F-000C9EB43DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269F5149-B080-4615-A2AA-CD801AA9BBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269F5149-B080-4615-A2AA-CD801AA9BBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269F5149-B080-4615-A2AA-CD801AA9BBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269F5149-B080-4615-A2AA-CD801AA9BBAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

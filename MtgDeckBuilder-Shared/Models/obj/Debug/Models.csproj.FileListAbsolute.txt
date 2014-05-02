@@ -1,0 +1,16 @@
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\obj\Debug\Models.csproj.App.config
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\Models.dll.config
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\Models.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\Models.pdb
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\MtgDb.Info.Driver.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\Newtonsoft.Json.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\System.Net.Http.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\System.Net.Http.Extensions.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\System.Net.Http.Primitives.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\Newtonsoft.Json.xml
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\System.Net.Http.xml
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\System.Net.Http.Extensions.xml
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\bin\Debug\System.Net.Http.Primitives.xml
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\obj\Debug\Models.dll
+S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\obj\Debug\Models.pdb

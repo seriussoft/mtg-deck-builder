@@ -19,19 +19,19 @@ namespace Models
       this.Database = new DB(CardsDB.DATABASE_URL);
     }
 
-    public CardModel GetCardByName(string name)
-    {
+    //public CardModel GetCardByName(string name)
+    //{
       
-    }
+    //}
 
-    public CardModel GetCardByID(int id)
-    {
+    //public CardModel GetCardByID(int id)
+    //{
 
-    }
+    //}
 
-    public CardsDB SearchCards(string filterKey, string filterValue)
-    {
+    //public CardsDB SearchCards(string filterKey, string filterValue)
+    //{
 
-    }
+    //}
   }
 }

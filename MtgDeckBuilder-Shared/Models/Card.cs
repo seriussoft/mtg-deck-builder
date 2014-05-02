@@ -16,9 +16,22 @@ namespace Models
       public string CardSetID { get { return this.BaseCard.CardSetId; } set { this.BaseCard.CardSetId = value; } }
       public string CardSetName { get { return this.BaseCard.CardSetName; } set { this.BaseCard.CardSetName = value; } }
 
+      private ManaCostModel _manaCost;
+      public ManaCostModel ManaCost { get { return this._manaCost; } set { this._manaCost = value; } }
       public int ConvertedManaCost { get { return this.BaseCard.ConvertedManaCost; } set { this.BaseCard.ConvertedManaCost = value; } }
-      public string ManaCostSimple { get { return this.BaseCard.ManaCost; } set { this.BaseCard.ManaCost = value; } }
-
+      public string ManaCostSimple 
+      { 
+        get 
+        { 
+          return this.BaseCard.ManaCost; 
+        } 
+        set 
+        { 
+          this.BaseCard.ManaCost = value;
+          try { this.ManaCost = new ManaCostModel(this.BaseCard.ManaCost); }
+          catch { }
+        } 
+      }
 
       public string ImageUrl { get { return this.BaseCard.CardImage; } }
       public string ImageUrlHiRes { get { return this.BaseCard.ImageHiRes; } }
