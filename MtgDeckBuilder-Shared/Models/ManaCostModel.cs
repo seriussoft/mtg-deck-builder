@@ -10,12 +10,12 @@ namespace Models
   [Flags]
   public enum ManaColors
   {
-    [Definition(ManaSymbols.Black)] Black,
-    [Definition(ManaSymbols.Red)] Red,
-    [Definition(ManaSymbols.Green)] Green,
-    [Definition(ManaSymbols.White)] White,
-    [Definition(ManaSymbols.Blue)] Blue,
-    [Definition(ManaSymbols.Colorless)] Colorless
+    [Definition(ManaSymbols.Black)] Black = 0x1,
+    [Definition(ManaSymbols.Red)] Red = 0x1 << 1,
+    [Definition(ManaSymbols.Green)] Green = 0x1 << 2,
+    [Definition(ManaSymbols.White)] White = 0x1 << 3,
+    [Definition(ManaSymbols.Blue)] Blue = 0x1 << 4,
+    [Definition(ManaSymbols.Colorless)] Colorless = 0x1 << 5
   }
 
   public static class ManaSymbols
@@ -151,27 +151,37 @@ namespace Models
 
     public ManaCostModel(string manaCostSimple = null)
     {
-      const string separator = "|";
       this.Costs = new Dictionary<ManaColors, int>();
-      var manaOperations = ParseManaOperations(manaCostSimple);
-      var orderedManaOperations = manaOperations.OrderBy(mo => mo).ToList();
-
-      foreach (var manaOperation in orderedManaOperations)
-      {
-        if(manaOperation.Contains(separator))
-        {
-          var manaOperationPartLeft = manaOperation[0];
-          var manaOperationPartRight = manaOperation[2];
-
-          HandleManaColors(manaOperationPartLeft, manaOperationPartRight);
-        }
-        else
-        {
-          var manaOperationPart = manaOperation[0];
-          HandleManaColor(manaOperationPart);
-        }
-      }
+			SetManaCostFromString(manaCostSimple);
     }
+		
+		public void SetManaCostFromString(string manaCostSimple)
+		{
+			const string separator = "|";
+
+			if (String.IsNullOrEmpty(manaCostSimple))
+				return;
+
+			var manaOperations = ParseManaOperations(manaCostSimple);
+			//var orderedManaOperations = manaOperations.OrderBy(mo => mo).ToList();
+
+			//foreach (var manaOperation in orderedManaOperations)
+			foreach (var manaOperation in manaOperations)
+			{
+				if (manaOperation.Contains(separator))
+				{
+					var manaOperationPartLeft = manaOperation[0];
+					var manaOperationPartRight = manaOperation[2];
+
+					HandleManaColors(manaOperationPartLeft, manaOperationPartRight);
+				}
+				else
+				{
+					var manaOperationPart = manaOperation[0];
+					HandleManaColor(manaOperationPart);
+				}
+			}
+		}
 
     private void HandleManaColors(char manaOperationPartLeft, char manaOperationPartRight)
     {
@@ -236,8 +246,13 @@ namespace Models
 
     private List<string> ParseManaOperations(string manaCostSimple)
     {
+			const char terminationLetter = '\0';
+
       var manaOperations = new List<string>();
-      const char terminationLetter = '\0';
+      if(String.IsNullOrEmpty(manaCostSimple))
+			{
+				return manaOperations;
+			}
 
       //var isInGroup = false;  //indicates that we are inside a group ( {U/R} for example )
 
@@ -277,7 +292,7 @@ namespace Models
 
         #region Group Open logic
 
-		if (character.IsOpen())
+				if (character.IsOpen())
         {
           ++index; //skip to relevant items
 
@@ -309,6 +324,10 @@ namespace Models
                 lastColor = terminationLetter;
                 lastColorlessCount = 0;
               }
+							else
+							{
+								lastColor = currentColor;
+							}
 
               //do this on each if so that we can skip extra checks
               character = manaCostSimple[++index];

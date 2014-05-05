@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtgDeckBuilder-Desktop", "MtgDeckBuilder-Desktop.csproj", "{3DB7EDA2-D892-46A3-888E-8F71CF12D634}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\MtgDeckBuilder-Shared\Models\Models.csproj", "{EFDA188C-7F07-4F24-A8C6-A8B896724292}"
@@ -8,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTests", "..\MtgDeckBuilder-Shared\ModelTests\ModelTests.csproj", "{A50679E9-E4CD-4337-AD5F-000C9EB43DD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "..\MtgDeckBuilder-Shared\TestUtils\Utils.csproj", "{269F5149-B080-4615-A2AA-CD801AA9BBAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{FB12EB0F-85D3-46E2-9A8C-0F8E9F28A40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A50679E9-E4CD-4337-AD5F-000C9EB43DD5} = {FB12EB0F-85D3-46E2-9A8C-0F8E9F28A40E}
+		{269F5149-B080-4615-A2AA-CD801AA9BBAA} = {FB12EB0F-85D3-46E2-9A8C-0F8E9F28A40E}
 	EndGlobalSection
 EndGlobal
