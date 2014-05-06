@@ -57,6 +57,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ManaParserIntegrationTests.cs" />
     <Compile Include="ManaParserTests.cs" />
     <Compile Include="ModelMocks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

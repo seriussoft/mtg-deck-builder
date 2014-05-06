@@ -33,12 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
+    <Compile Include="CardModel.cs" />
     <Compile Include="CardsDB.cs" />
+    <Compile Include="DeckModel.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Extensions\CardListExtensions.cs" />
+    <Compile Include="Extensions\ManaExtensions.cs" />
     <Compile Include="DefinitionAttribute.cs" />
     <Compile Include="ManaCostModel.cs" />
     <Compile Include="MtgDbExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryHelpers\CardTypes.cs" />
+    <Compile Include="QueryHelpers\Enums.cs" />
+    <Compile Include="QueryHelpers\SubCardTypes.cs" />
+    <Compile Include="Translators\ManaColorTranslator.cs" />
+    <Compile Include="Translators\ManaCostTranslator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MtgDb.Info.Driver">

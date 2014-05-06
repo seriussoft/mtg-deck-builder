@@ -2,9 +2,6 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\Card.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
       <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\CardsDB.cs</string>
     </ArrayOfString>
     <ArrayOfString>
@@ -18,6 +15,24 @@
     </ArrayOfString>
     <ArrayOfString>
       <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\ManaParserTests.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\Translators\ManaColorTranslator.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\Translators\ManaCostTranslator.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\CardModel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\DeckModel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\QueryHelpers\CardTypes.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ModelTests\ManaParserIntegrationTests.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
