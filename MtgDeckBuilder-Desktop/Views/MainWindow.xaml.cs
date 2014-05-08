@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Behaviours;
 using MahApps.Metro.Controls;
+using MtgDeckBuilder_Desktop.ViewModel;
 
 namespace MtgDeckBuilder_Desktop
 {
@@ -23,9 +25,23 @@ namespace MtgDeckBuilder_Desktop
   /// </summary>
   public partial class MainWindow : MetroWindow
   {
+    public bool IsInDesignMode
+    {
+      get { return DesignerProperties.GetIsInDesignMode(this); }
+    }
+
     public MainWindow()
     {
       InitializeComponent();
+
+      if (this.IsInDesignMode)
+      {
+        this.DataContext = new MainViewModel() { ColorTheme = ColorTheme.Red };
+      }
+      else
+      {
+        this.DataContext = new MainViewModel();
+      }
     }
 
 		private void AddWindowBehaviors()

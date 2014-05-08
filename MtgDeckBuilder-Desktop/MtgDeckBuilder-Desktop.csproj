@@ -146,6 +146,12 @@
   <ItemGroup>
     <Resource Include="Resources\Icons\Entypo-license.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MtgDeckBuilder-Shared\ViewModels\ViewModels.csproj">
+      <Project>{5874f5e4-3dd3-4373-9d7a-fdf5b37d643a}</Project>
+      <Name>ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

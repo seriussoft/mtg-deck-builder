@@ -4,12 +4,16 @@
 				xmlns:mahapps="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         xmlns:Behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
-        Title="MainWindow" Height="350" Width="525"
+        Title="MTG Deck Builder" 
+        Height="600" Width="940"
+        MinHeight="600" MinWidth="940" 
+        MaxHeight="1110" MaxWidth="1920"
 				ShowTitleBar="true"
         ShowIconOnTitleBar="true"
 				>
+  <!--Height="350" Width="525"-->
 
-	<i:Interaction.Behaviors>
+  <i:Interaction.Behaviors>
 		<Behaviours:BorderlessWindowBehavior 
 			EnableDWMDropShadow="true" 
 			AllowsTransparency="false" 
@@ -23,14 +27,38 @@
 			<ColumnDefinition Width=".5*"/>
 			<ColumnDefinition Width="6*"/>
 		</Grid.ColumnDefinitions>
-		
-		<Border Grid.Column="0" Background="{StaticResource RedMarbleBrush}"/>
-		<!--<Border Grid.Column="1" Background="{StaticResource GoldGradientImageBrush}">
-			<Border.BitmapEffect>
-				- -<DropShadowBitmapEffect Color="Black" ShadowDepth="3" Direction="270"/>- -
-				<DropShadowBitmapEffect Color="Black" ShadowDepth="8" Direction="320" Softness="1"/>
-			</Border.BitmapEffect>
-		</Border>-->
+    
+    <Grid.BitmapEffect>
+      <DropShadowBitmapEffect Color="Black" ShadowDepth="8" Direction="320" Softness="1"/>
+    </Grid.BitmapEffect>
+    
+    <Border Grid.Column="0">
+      <Border.Style>
+        <Style TargetType="{x:Type Border}">
+          <Setter Property="Background" Value="{StaticResource RedMarbleBrush}"/>
+          <Style.Triggers>
+            <DataTrigger Binding="{Binding ColorThemeName}" Value="Red">
+              <Setter Property="Background" Value="{StaticResource RedMarbleBrush}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ColorThemeName}" Value="Black">
+              <Setter Property="Background" Value="{StaticResource BlackMarbleBrush}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ColorThemeName}" Value="Blue">
+              <Setter Property="Background" Value="{StaticResource BlueMarbleBrush}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ColorThemeName}" Value="Green">
+              <Setter Property="Background" Value="{StaticResource GreenMarbleBrush}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ColorThemeName}" Value="White">
+              <Setter Property="Background" Value="{StaticResource PearlMarbleBrush}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ColorThemeName}" Value="Metal">
+              <Setter Property="Background" Value="{StaticResource GrayMarbleBrush}"/>
+            </DataTrigger>
+          </Style.Triggers>
+        </Style>
+      </Border.Style>
+    </Border>
 		
 		<Border Grid.Column="1" Grid.ColumnSpan="2" Background="{StaticResource PorousCornsilkBrush}">
 			<Grid>
