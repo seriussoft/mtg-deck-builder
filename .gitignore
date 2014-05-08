@@ -1,4 +1,4 @@
-# $ cat .gitignore
+$ cat .gitignore
 # exclude obj and compile directories
-# obj/
-# bin/
+[Oo]bj/
+[Bb]in/
