@@ -1,59 +1,32 @@
-S:\Programming\GitHub\mtg-deck-builder\Desktop\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe.config
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe.config
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.pdb
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Newtonsoft.Json.dll
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\System.Windows.Interactivity.dll
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Newtonsoft.Json.xml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\System.Windows.Interactivity.xml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.csprojResolveAssemblyReference.cache
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MainWindow.baml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MainWindow.g.cs
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\App.g.cs
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\GeneratedInternalTypeHelper.g.cs
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop_MarkupCompile.cache
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop_MarkupCompile.lref
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\App.baml
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.g.resources
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder_Desktop.Properties.Resources.resources
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.csproj.GenerateResource.Cache
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.exe
-S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.pdb
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe.config
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.exe
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.pdb
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.pdb
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Newtonsoft.Json.dll
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\System.Windows.Interactivity.dll
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Newtonsoft.Json.xml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\System.Windows.Interactivity.xml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.csprojResolveAssemblyReference.cache
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MainWindow.baml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MainWindow.g.cs
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\App.g.cs
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop_MarkupCompile.cache
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop_MarkupCompile.lref
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\App.baml
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.g.resources
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder_Desktop.Properties.Resources.resources
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.csproj.GenerateResource.Cache
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\Resources\Dictionaries\Brushes.baml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\Resources\Icons\Icons.baml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\Views\MainWindow.baml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\Resources\Icons\Icons.g.cs
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\Views\MainWindow.g.cs
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop_MarkupCompile.cache
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe.config
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.exe
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MtgDeckBuilder-Desktop.pdb
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MahApps.Metro.dll
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Newtonsoft.Json.dll
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\System.Windows.Interactivity.dll
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\MahApps.Metro.xml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\bin\Debug\Newtonsoft.Json.xml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\App.baml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\App.g.cs
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.g.resources
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder_Desktop.Properties.Resources.resources
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.csproj.GenerateResource.Cache
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.exe
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.pdb
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\Resources\Dictionaries\MahAppsMarbleThemeAccent.baml
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\MtgDeckBuilder-Desktop.csprojResolveAssemblyReference.cache

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\obj\Debug\
 MtgDeckBuilder_Desktop
 none
 false
 DEBUG;TRACE
-D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\App.xaml
-11151548125
+D:\SeriusSoft\Projects\Cross Platform\mtg-deck-builder\MtgDeckBuilder-Desktop\App.xaml
+41781655981
 
-11-814531891
-172046530712
-MainWindow.xaml;
+11-1620936255
+18-241114802
+Resources\Dictionaries\Brushes.xaml;Resources\Dictionaries\MahAppsMarbleThemeAccent.xaml;Resources\Icons\Icons.xaml;Views\MainWindow.xaml;
 
 False
 

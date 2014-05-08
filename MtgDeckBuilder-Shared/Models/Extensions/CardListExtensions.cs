@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Models.QueryHelpers;
+using SeriusSoft.MtgDeckBuilder.Models.QueryHelpers;
 
-namespace Models.Extensions
+namespace SeriusSoft.MtgDeckBuilder.Models.Extensions
 {
   public static class CardListExtensions
   {

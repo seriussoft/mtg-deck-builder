@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Models.Extensions;
+using SeriusSoft.MtgDeckBuilder.Models.Extensions;
 
-namespace Models.Translators
+namespace SeriusSoft.MtgDeckBuilder.Models.Translators
 {
   public static class ManaCostTranslator
   {

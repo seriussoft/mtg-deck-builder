@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using MtgDb.Info;
 
-namespace Models
+namespace SeriusSoft.MtgDeckBuilder.Models
 {
     public class CardModel
     {

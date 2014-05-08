@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using MtgDb.Info;
 using DB = MtgDb.Info.Driver.Db;
 
-namespace Models
+namespace SeriusSoft.MtgDeckBuilder.Models
 {
   public class CardsDB
   {

@@ -8,8 +8,8 @@
     <ProjectGuid>{EFDA188C-7F07-4F24-A8C6-A8B896724292}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Models</RootNamespace>
-    <AssemblyName>Models</AssemblyName>
+    <RootNamespace>SeriusSoft.MtgDeckBuilder.Models</RootNamespace>
+    <AssemblyName>SeriusSoft.MtgDeckBuilder.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

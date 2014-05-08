@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 
-using Models.Extensions;
-using Models.Translators;
+using SeriusSoft.MtgDeckBuilder.Models.Extensions;
+using SeriusSoft.MtgDeckBuilder.Models.Translators;
 
-namespace Models
+namespace SeriusSoft.MtgDeckBuilder.Models
 {
   public class ManaCostModel
   {

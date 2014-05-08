@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using MtgDb.Info;
 using Newtonsoft.Json;
 
-namespace Models
+namespace SeriusSoft.MtgDeckBuilder.Models
 {
   /// <summary>
   /// Note that async methods use async http client access, but the json implementation is still synchronous and therefore blocking. This should be fine for client based applications, but is not guaranteed to scale performably in a large environment with heavy use.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.Extensions
+namespace SeriusSoft.MtgDeckBuilder.Models.Extensions
 {
   public static class ManaExtensions
   {

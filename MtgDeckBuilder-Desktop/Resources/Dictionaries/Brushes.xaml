@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<ImageBrush x:Key="BlackMarbleBrush" ImageSource="pack://application:,,,/Resources/Images/BlackSlateMarbleSample.png"/>
+	<ImageBrush x:Key="BlueMarbleBrush" ImageSource="pack://application:,,,/Resources/Images/BlueMarbleSample.png"/>
+	<ImageBrush x:Key="GrayMarbleBrush" ImageSource="pack://application:,,,/Resources/Images/GrayMarbleSample.png"/>
+	<ImageBrush x:Key="GreenMarbleBrush" ImageSource="pack://application:,,,/Resources/Images/GreenMarbleSample.png"/>
+	<ImageBrush x:Key="PearlMarbleBrush" ImageSource="pack://application:,,,/Resources/Images/PearlMarbleSample.png"/>
+	<ImageBrush x:Key="RedMarbleBrush" ImageSource="pack://application:,,,/Resources/Images/RedMarbleSample.png" TileMode="None" Stretch="None"/>
+	
+	<ImageBrush x:Key="PorousGoldBrush" ImageSource="pack://application:,,,/Resources/Images/GoldSpongeSample.png" TileMode="None" Stretch="None" />
+	<ImageBrush x:Key="PorousCornsilkBrush" ImageSource="pack://application:,,,/Resources/Images/CornsilkPorousLeatherSample.png" TileMode="None" Stretch="None"/>
+	<!--<ImageBrush x:Key="PorousGoldBrush" ImageSource="pack://application:,,,/Resources/Images/GoldSpongeSample.png"/>-->
+
+	<Image x:Key="GoldGradientImage" Source="pack://application:,,,/Resources/Images/GoldSpongeSample.png">
+		<Image.OpacityMask>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+				<GradientStop Offset="0.0" Color="#FFFFFFFF"/>
+				<GradientStop Offset="0.75" Color="#50000000"/>
+				<GradientStop Offset="0.5" Color="#50000000"/>
+				<GradientStop Offset="0.75" Color="#50000000"/>
+				<GradientStop Offset="1.0" Color="#FFFFFFFF"/>
+			</LinearGradientBrush>
+		</Image.OpacityMask>
+	</Image>
+	
+	<VisualBrush x:Key="GoldGradientImageBrush" Visual="{StaticResource GoldGradientImage}" TileMode="None" Stretch="None"/>
+	
+</ResourceDictionary>

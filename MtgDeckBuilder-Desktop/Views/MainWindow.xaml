@@ -1,0 +1,55 @@
+﻿<mahapps:MetroWindow x:Class="MtgDeckBuilder_Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:mahapps="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:Behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Title="MainWindow" Height="350" Width="525"
+				ShowTitleBar="true"
+        ShowIconOnTitleBar="true"
+				>
+
+	<i:Interaction.Behaviors>
+		<Behaviours:BorderlessWindowBehavior 
+			EnableDWMDropShadow="true" 
+			AllowsTransparency="false" 
+			ResizeWithGrip="true" 
+			/>
+	</i:Interaction.Behaviors>
+
+	<Grid Background="WhiteSmoke">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="3*"/>
+			<ColumnDefinition Width=".5*"/>
+			<ColumnDefinition Width="6*"/>
+		</Grid.ColumnDefinitions>
+		
+		<Border Grid.Column="0" Background="{StaticResource RedMarbleBrush}"/>
+		<!--<Border Grid.Column="1" Background="{StaticResource GoldGradientImageBrush}">
+			<Border.BitmapEffect>
+				- -<DropShadowBitmapEffect Color="Black" ShadowDepth="3" Direction="270"/>- -
+				<DropShadowBitmapEffect Color="Black" ShadowDepth="8" Direction="320" Softness="1"/>
+			</Border.BitmapEffect>
+		</Border>-->
+		
+		<Border Grid.Column="1" Grid.ColumnSpan="2" Background="{StaticResource PorousCornsilkBrush}">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width=".076*"/>
+					<ColumnDefinition Width=".924*"/>
+				</Grid.ColumnDefinitions>
+				
+				<Border Grid.Column="0" Background="{StaticResource GoldGradientImageBrush}">
+					<Border.BitmapEffect>
+						<!--<DropShadowBitmapEffect Color="Black" ShadowDepth="3" Direction="270"/>-->
+						<DropShadowBitmapEffect Color="Black" ShadowDepth="8" Direction="320" Softness="1"/>
+					</Border.BitmapEffect>
+				</Border>
+
+			</Grid>
+			
+		</Border>
+
+	</Grid>
+	
+</mahapps:MetroWindow>

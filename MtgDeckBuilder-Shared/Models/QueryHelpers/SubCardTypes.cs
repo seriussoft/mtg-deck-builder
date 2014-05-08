@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.QueryHelpers
+namespace SeriusSoft.MtgDeckBuilder.Models.QueryHelpers
 {
   public class SubCardTypes
   {

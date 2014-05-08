@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using Models;
+using SeriusSoft.MtgDeckBuilder.Models;
 using MtgDb.Info;
 using Newtonsoft.Json;
 using Utils;
