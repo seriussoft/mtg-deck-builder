@@ -2,14 +2,29 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Resources\Dictionaries\Brushes.xaml</string>
+      <string>d:\personal dev\github\mtg-deck-builder\mtgdeckbuilder-desktop\views\mainwindow.xaml</string>
+      <string>d:\personal dev\github\mtg-deck-builder\mtgdeckbuilder-desktop\views\mainwindow.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\MainWindow.xaml</string>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\MainWindow.xaml.cs</string>
+      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\App.xaml</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\ViewModel\MainViewModel.cs</string>
+      <string>d:\personal dev\github\mtg-deck-builder\mtgdeckbuilder-shared\models\deckmodel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\CardViewModel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\CardInDeckViewModel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\DeckViewModel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Utilities\AsyncObservableCollection.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Utilities\AsyncSynchronizedObservableCollection.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
