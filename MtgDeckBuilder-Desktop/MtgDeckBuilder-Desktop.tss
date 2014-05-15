@@ -2,29 +2,31 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>d:\personal dev\github\mtg-deck-builder\mtgdeckbuilder-desktop\views\mainwindow.xaml</string>
-      <string>d:\personal dev\github\mtg-deck-builder\mtgdeckbuilder-desktop\views\mainwindow.xaml.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\DeckEditorView.xaml</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\DeckEditorView.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\App.xaml</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\SimpleCardView.xaml</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\SimpleCardView.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>d:\personal dev\github\mtg-deck-builder\mtgdeckbuilder-shared\models\deckmodel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\MainWindow.xaml</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\MainWindow.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\CardViewModel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Decks\TestDeckViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\CardInDeckViewModel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\TestCardViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\DeckViewModel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\CardViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Utilities\AsyncObservableCollection.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Decks\DeckViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Personal Dev\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Utilities\AsyncSynchronizedObservableCollection.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\CardModel.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

@@ -2,14 +2,14 @@
 <ArrayOfTabHighlightState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TabHighlightState>
     <extensions>
-      <string>views\mainwindow.xaml</string>
-      <string>views\mainwindow.xaml.cs</string>
+      <string>App.xaml</string>
     </extensions>
     <highlightIndex>3</highlightIndex>
   </TabHighlightState>
   <TabHighlightState>
     <extensions>
-      <string>App.xaml</string>
+      <string>Views\MainWindow.xaml</string>
+      <string>Views\MainWindow.xaml.cs</string>
     </extensions>
     <highlightIndex>3</highlightIndex>
   </TabHighlightState>

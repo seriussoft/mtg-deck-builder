@@ -45,7 +45,7 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
 
 		public ManaCostViewModel(string manaCost = null) : this(new ManaCostModel(manaCost)) { }
 
-		protected internal ManaCostViewModel(ManaCostModel model) : this()
+		protected internal ManaCostViewModel(ManaCostModel model)
 		{
 			this.ManaCost = new ObservableCollection<ManaColorCountViewModel>();
 			this.Model = model;

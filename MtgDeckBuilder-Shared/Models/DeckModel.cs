@@ -12,7 +12,10 @@ namespace SeriusSoft.MtgDeckBuilder.Models
 	{
 		#region Properties
 
-		public List<CardModel> Cards { get; private set; }
+    public string Name { get; set; }
+    public string ID { get; set; }
+
+		public ObservableCollection<CardModel> Cards { get; private set; }
 
 		public int TotalConvertedManaCost { get { return this.Cards.Sum(c => c.ConvertedManaCost); } }
 		public double AverageConvertedManaCost { get { return this.Cards.Average(c => c.ConvertedManaCost); } }
@@ -56,7 +59,7 @@ namespace SeriusSoft.MtgDeckBuilder.Models
 
 		public DeckModel(IEnumerable<CardModel> cards = null)
     {
-      this.Cards = new List<CardModel>();
+      this.Cards = new ObservableCollection<CardModel>();
 
       AddCards(cards);
     }
@@ -72,7 +75,10 @@ namespace SeriusSoft.MtgDeckBuilder.Models
 		public IEnumerable<CardModel> AddCards(IEnumerable<CardModel> cards)
 		{
 			if (cards != null && cards.Any())
-				this.Cards.AddRange(cards);
+        foreach (var card in cards)
+        {
+          this.Cards.Add(card);
+        }
 
 			return cards;
 		}
@@ -99,11 +105,15 @@ namespace SeriusSoft.MtgDeckBuilder.Models
 
 		public IEnumerable<CardModel> RemoveCards(params string[] cardNames)
 		{
-			var cardsToRemove = this.Cards.FindAll(c => cardNames.Contains(c.Name));
+			var cardsToRemove = this.Cards.Where(c => cardNames.Contains(c.Name)); //FindAll
 			if (cardsToRemove.Any())
 			{
 				var cardsRemoved = cardsToRemove.ToList();
-				this.Cards.RemoveAll(c => cardNames.Contains(c.Name));
+        foreach (var card in cardsRemoved)
+        {
+          //this.Cards.RemoveAll(c => cardNames.Contains(c.Name));
+          this.Cards.Remove(card);
+        }
 				return cardsRemoved;
 			}
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{3DB7EDA2-D892-46A3-888E-8F71CF12D634}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MtgDeckBuilder_Desktop</RootNamespace>
-    <AssemblyName>MtgDeckBuilder-Desktop</AssemblyName>
+    <RootNamespace>SeriusSoft.MtgDeckBuilder_Desktop</RootNamespace>
+    <AssemblyName>SeriusSoft.MtgDeckBuilder-Desktop</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -52,6 +52,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\MahApps.Metro.0.14.0-ALPHA36\lib\net45\System.Windows.Interactivity.dll</HintPath>
     </Reference>
@@ -74,6 +76,14 @@
     </ApplicationDefinition>
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
+    <Compile Include="Views\BaseObservableUserControl2.cs" />
+    <Compile Include="Views\BaseUserControl.cs" />
+    <Compile Include="Views\DeckEditorView.xaml.cs">
+      <DependentUpon>DeckEditorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SimpleCardView.xaml.cs">
+      <DependentUpon>SimpleCardView.xaml</DependentUpon>
+    </Compile>
     <Page Include="Resources\Dictionaries\Brushes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,6 +95,10 @@
     <Page Include="Resources\Icons\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DeckEditorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -98,6 +112,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\SimpleCardView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

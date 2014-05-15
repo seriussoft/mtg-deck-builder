@@ -28,9 +28,17 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
 			protected set
 			{
 				this._manaCost = value;
+        this.ManaCostSimple = null;
 				RaisePropertyChanged();
 			}
 		}
+
+    protected string _manaCostSimple;
+    public string ManaCostSimple
+    {
+      get { return this.Model.ManaCostSimple; }
+      protected set { RaisePropertyChanged(); }
+    }
 
 		protected string _imageUrlLowRes;
 		public string ImageUrlLowRes
@@ -120,6 +128,17 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
 			}
 		}
 
+    protected int _quantity;
+    public int Quantity
+    {
+      get { return this._quantity; }
+      set
+      {
+        this._quantity = value;
+        RaisePropertyChanged();
+      }
+    }
+
 		protected override void RaiseAllBackedPropertiesChanged()
 		{
 			if(this.Model != null)
@@ -134,6 +153,7 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
 				this.SubType = this.Model.SubType;
 				this.CardSet = this.Model.CardSetName;
 				this.CardSetID = this.Model.CardSetID;
+        this.Quantity = this.Model.Quantity;
 			}
 		}
 

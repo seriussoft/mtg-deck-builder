@@ -55,14 +55,17 @@ namespace SeriusSoft.MtgDeckBuilder.Models
       public string Type { get { return this.BaseCard.Type; } set { this.BaseCard.Type = value; } }
       public string SubType { get { return this.BaseCard.SubType; } set { this.BaseCard.SubType = value; } }
 
-      public CardModel()
+      public int Quantity { get; set; }
+
+      public CardModel() : this(new Card())
       {
-        this.BaseCard = new Card();
+        
       }
 
       protected internal CardModel(Card baseCard)
       {
         this.BaseCard = baseCard;
+        this.Quantity = 1;
       }
     }
 }
