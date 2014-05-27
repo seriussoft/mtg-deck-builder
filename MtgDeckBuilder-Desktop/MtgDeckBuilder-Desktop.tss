@@ -2,12 +2,11 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\DeckEditorView.xaml</string>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\DeckEditorView.xaml.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Decks\DeckViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\SimpleCardView.xaml</string>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\SimpleCardView.xaml.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\DeckEditorView.xaml</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\DeckEditorView.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\MainWindow.xaml</string>
@@ -17,16 +16,14 @@
       <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Decks\TestDeckViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\TestCardViewModel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\SimpleCardView.xaml</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Views\SimpleCardView.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Cards\CardViewModel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\ViewModel\MainViewModel.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\ViewModels\Decks\DeckViewModel.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Shared\Models\CardModel.cs</string>
+      <string>S:\Programming\GitHub\mtg-deck-builder\MtgDeckBuilder-Desktop\Attached Properties\DeckViewModelHelper.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

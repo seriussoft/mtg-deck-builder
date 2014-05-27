@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -113,31 +114,33 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
 
     protected void HookupCommands()
     {
-      this.AddCardCommand = new RelayCommand(AddCardCommand_Execute, AddCardCommand_CanExecute);
-      this.RemoveCardCommand = new RelayCommand(RemoveCardCommand_Execute, RemoveCardCommand_CanExecute);
-      this.SelectCardCommand = new RelayCommand(SelectCardCommand_Execute, SelectCardCommand_CanExecute);
+      this.AddCardCommand = new RelayCommand<CardInDeckViewModel>(AddCardCommand_Execute, AddCardCommand_CanExecute);
+      this.RemoveCardCommand = new RelayCommand<CardInDeckViewModel>(RemoveCardCommand_Execute, RemoveCardCommand_CanExecute);
+      this.SelectCardCommand = new RelayCommand<CardInDeckViewModel>(SelectCardCommand_Execute, SelectCardCommand_CanExecute);
       this.UnselectCardCommand = new RelayCommand(UnselectCardCommand_Execute, UnselectCardCommand_CanExecute);
     }
 
-    private void AddCardCommand_Execute()
+    private void AddCardCommand_Execute(CardInDeckViewModel cardInDeck)
     {
-      this.Model.AddCard(this.CurrentlySelectedCard.Model);
+      //this.CurrentlySelectedCard.Model
+      this.Model.AddCard(cardInDeck.Model);
       this.CurrentlySelectedCard = null;
     }
 
-    private bool AddCardCommand_CanExecute()
+    private bool AddCardCommand_CanExecute(CardInDeckViewModel cardInDeck)
     {
-      return this.Model != null;
+      return this.Model != null && cardInDeck != null;
     }
 
-    private void RemoveCardCommand_Execute()
+    private void RemoveCardCommand_Execute(CardInDeckViewModel cardInDeck)
     {
-      this.Model.RemoveCard(this.CurrentlySelectedCard.Model);
+      //this.CurrentlySelectedCar.dModel
+      this.Model.RemoveCard(cardInDeck.Model);
     }
 
-    private bool RemoveCardCommand_CanExecute()
+    private bool RemoveCardCommand_CanExecute(CardInDeckViewModel cardInDeck)
     {
-      return this.Model != null && this.Model.Cards.Any() && this.CurrentlySelectedCard != null;
+      return this.Model != null && this.Model.Cards.Any() && cardInDeck != null;
     }
 
     private void UnselectCardCommand_Execute()
@@ -151,16 +154,14 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
       return this.CurrentlySelectedCard != null;
     }
 
-    [Obsolete("Not implemented. May need to actually move the command object to the individual card view models and then hook this method up from there")]
-    private void SelectCardCommand_Execute()
+    private void SelectCardCommand_Execute(CardInDeckViewModel cardInDeck)
     {
-      throw new NotImplementedException();
+      this.CurrentlySelectedCard = cardInDeck;
     }
 
-    [Obsolete("Not implemented. May need to actually move the command object to the individual card view models and then hook this method up from there")]
-    private bool SelectCardCommand_CanExecute()
+    private bool SelectCardCommand_CanExecute(CardInDeckViewModel cardInDeck)
     {
-      throw new NotImplementedException();
+      return cardInDeck != null;
     }
 
     #endregion  Commands
@@ -194,9 +195,56 @@ namespace SeriusSoft.MtgDeckBuilder.ViewModels
       this.Cards.CollectionChanged += Cards_CollectionChanged;
     }
 
-    protected void Cards_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+    protected void Cards_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
     {
-      //is there anything we care about here???
+      switch (e.Action)
+      {
+        case NotifyCollectionChangedAction.Add:
+          if (e.NewItems == null)
+            return;
+
+          var itemsAdded = e.NewItems.Cast<CardInDeckViewModel>().ToList();
+          foreach (var item in itemsAdded)
+          {
+            //HookupCommandsToCard(item);
+          }
+          break;
+
+        case NotifyCollectionChangedAction.Remove:
+        case NotifyCollectionChangedAction.Replace:
+          var itemsRemoved = e.OldItems.Cast<CardInDeckViewModel>().ToList();
+          foreach (var item in itemsRemoved)
+          {
+            //UnhookCommandsToCard(item);
+          }
+          break;
+
+        case NotifyCollectionChangedAction.Reset:
+          var itemsReset = e.OldItems.Cast<CardInDeckViewModel>().ToList();
+          foreach (var item in itemsReset)
+          {
+            //UnhookCommandsToCard(item);
+          }
+          break;
+
+        default:
+          //do nothing for now. but, if we need to cover the other actions, we can here
+          break;
+      }
+    }
+
+    [Obsolete("Not yet implemented")]
+    protected void HookupCommandsToCard(CardInDeckViewModel cardInDeck)
+    {
+      //hookup the commands for select and remove
+      throw new NotImplementedException("HookupCommandsToCard is not yet implemented");
+    }
+
+    [Obsolete("Not yet implemented")]
+    protected void UnhookCommandsToCard(CardInDeckViewModel cardInDeck)
+    {
+      //unhook the commands for select and remove
+      throw new NotImplementedException("UnhookCommandsToCard is not yet implemented");
     }
 
     protected CardInDeckViewModel CreateDeckCardViewModelFromModel(CardModel cardModel)

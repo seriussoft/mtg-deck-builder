@@ -27,6 +27,7 @@
           <v:SimpleCardView DataContext="{Binding}" Height="25" Width="300"/>
         </Border>
       </DataTemplate>
+      
     </Grid.Resources>
     
     <ItemsControl 

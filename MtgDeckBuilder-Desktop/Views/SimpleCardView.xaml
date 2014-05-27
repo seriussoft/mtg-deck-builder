@@ -28,9 +28,9 @@
           <Run Text="]"/>-->
         </TextBlock>
         <Border Grid.Column="2" Background="CadetBlue">
-          <TextBlock HorizontalAlignment="Right">
-          <Run Text="{Binding Quantity}"/>
-          <Run Text="+/-"/>
+          <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Run Text="{Binding Quantity}"/>
+            <Run Text="+/-"/>
           </TextBlock>
         </Border>
       </Grid>

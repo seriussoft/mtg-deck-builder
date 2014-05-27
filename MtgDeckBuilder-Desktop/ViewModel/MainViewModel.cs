@@ -40,6 +40,17 @@ namespace MtgDeckBuilder_Desktop.ViewModel
         }
       }
 
+      protected DeckViewModel _deckMode;
+      public DeckViewModel DeckMode
+      {
+        get { return this._deckMode; }
+        set
+        {
+          this._deckMode = value;
+          this.RaisePropertyChanged();
+        }
+      }
+
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>

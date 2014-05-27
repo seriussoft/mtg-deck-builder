@@ -76,7 +76,8 @@
 				</Border>
         <Grid Grid.Column="1" x:Name="MainSpace">
           <!--<lv:SimpleCardView Width="300" Height="50"/>-->
-          <lv:DeckEditorView Width="580" Height="550">
+          <lv:DeckEditorView TestViewModel="{Binding DeckMode}" Width="580" Height="550">
+          <!--<lv:DeckEditorView lv:DeckViewModelHelper.DeckViewModel="{Binding DeckMode}" Width="580" Height="550">-->
             <!--<lv:DeckEditorView.BorderBrush>Beige</lv:DeckEditorView.BorderBrush>
             <lv:DeckEditorView.BorderThickness>3</lv:DeckEditorView.BorderThickness>-->
           </lv:DeckEditorView>

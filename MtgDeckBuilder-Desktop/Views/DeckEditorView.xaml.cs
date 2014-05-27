@@ -22,16 +22,43 @@ namespace SeriusSoft.MtgDeckBuilder_Desktop.Views
 {
   public partial class DeckEditorView : BaseUserControl
   {
-    private DeckViewModel _testViewModel;
+    public static readonly DependencyProperty DeckViewModelProperty =
+      DependencyProperty.Register
+      (
+        "TestViewModel", typeof(DeckViewModel), typeof(DeckEditorView),
+        new FrameworkPropertyMetadata
+        (
+          null,
+          FrameworkPropertyMetadataOptions.BindsTwoWayByDefault | FrameworkPropertyMetadataOptions.AffectsRender
+        )
+      );
+
     public DeckViewModel TestViewModel
     {
-      get { return this._testViewModel; }
-      set
-      {
-        this._testViewModel = value;
-        RaisePropertyChanged();
-      }
+      get { return this.GetValue(DeckViewModelProperty) as DeckViewModel; }
+      set { this.SetValue(DeckViewModelProperty, value); }
     }
+
+    //public static void SetDeckViewModel(UIElement element, object viewModel)
+    //{
+    //  element.SetValue(DeckViewModelProperty, viewModel);
+    //}
+
+    //public static DeckViewModel GetDeckViewModel(UIElement element)
+    //{
+    //  return element.GetValue(DeckViewModelProperty) as DeckViewModel;
+    //}
+
+    //private DeckViewModel _testViewModel;
+    //public DeckViewModel TestViewModel
+    //{
+    //  get { return this._testViewModel; }
+    //  set
+    //  {
+    //    this._testViewModel = value;
+    //    RaisePropertyChanged();
+    //  }
+    //}
 
     /// <summary>
     /// if you override this, make sure to call the base method because this will run InitializeComponent.
